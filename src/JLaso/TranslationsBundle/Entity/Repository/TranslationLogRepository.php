@@ -9,4 +9,13 @@ use Doctrine\ORM\EntityRepository;
  */
 class TranslationLogRepository extends EntityRepository
 {
+
+    public function getLast()
+    {
+
+        return 1;
+
+    }
+
+
 }
